@@ -2,11 +2,11 @@ const contentful = require('contentful');
 const manifestConfig = require('./manifest-config');
 require('dotenv').config();
 
-const { ACCESS_TOKEN, SPACE_ID, ANALYTICS_ID, DETERMINISTIC } = process.env;
+const { GATSBY_ACCESS_TOKEN, ANALYTICS_ID, DETERMINISTIC } = process.env;
 
 const client = contentful.createClient({
-  space: SPACE_ID,
-  accessToken: ACCESS_TOKEN,
+  space: 'd8klwhb2yskd',
+  accessToken: GATSBY_ACCESS_TOKEN,
 });
 
 const getAboutEntry = (entry) => entry.sys.contentType.sys.id === 'about';
@@ -29,8 +29,8 @@ const plugins = [
   {
     resolve: 'gatsby-source-contentful',
     options: {
-      spaceId: SPACE_ID,
-      accessToken: ACCESS_TOKEN,
+      spaceId: 'd8klwhb2yskd',
+      accessToken: GATSBY_ACCESS_TOKEN,
     },
   },
   'gatsby-transformer-remark',
