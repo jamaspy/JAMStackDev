@@ -76,7 +76,17 @@ const LandingPage = () => (
               fontSize={[6, 7]}
               mb={[3, 4, 5]}
             >
-              {`Hello, I'm ${name}!`}
+              {`Hi, I'm ${name}`}
+            </Heading>
+            <Heading
+              as="h4"
+              color="primary"
+              fontSize={[4, 5]}
+              mb={[3, 5]}
+              textAlign="center"
+              style={centerHorizontally}
+            >
+              JAMStack Developer
             </Heading>
 
             <Heading

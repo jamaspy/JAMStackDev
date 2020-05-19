@@ -16884,7 +16884,7 @@
     }
   ],
   "height": 1024,
-  "metadata": { "name": "icomoon" },
+  "metadata": { "name": "Raleway" },
   "preferences": {
     "showGlyphs": true,
     "showQuickUse": true,
@@ -16893,7 +16893,7 @@
     "fontPref": {
       "prefix": "fa-",
       "metadata": {
-        "fontFamily": "icomoon",
+        "fontFamily": "Raleway",
         "majorVersion": 1,
         "minorVersion": 0
       },

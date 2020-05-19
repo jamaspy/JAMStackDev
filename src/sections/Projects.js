@@ -152,7 +152,9 @@ const Project = ({
             {type}
           </ImageSubtitle>
           <Hide query={MEDIA_QUERY_SMALL}>
-            <ImageSubtitle bg="backgroundDark">{publishedDate}</ImageSubtitle>
+            <ImageSubtitle bg="primary" color="white">
+              {publishedDate}
+            </ImageSubtitle>
           </Hide>
         </ProjectTag>
       </ImageContainer>
@@ -177,7 +179,7 @@ Project.propTypes = {
 
 const Projects = () => (
   <Section.Container id="projects" Background={Background}>
-    <Section.Header name="Projects" icon="💻" label="notebook" />
+    <Section.Header name="Projects" icon="" label="notebook" />
     <StaticQuery
       query={graphql`
         query ProjectsQuery {

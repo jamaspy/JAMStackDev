@@ -1,7 +1,7 @@
 {
   "name": "gatsby-starter-mate",
   "version": "2.5.2",
-  "description": "Gatsby v2 starter to create a top notch portfolio!",
+  "description": "James Aspinall Online JAMStack Portfolio",
   "main": "index.js",
   "scripts": {
     "build": "gatsby clean && gatsby build",
@@ -20,12 +20,15 @@
   },
   "keywords": [
     "gatsby",
-    "starter",
+    "JAMStack",
     "contentful",
     "PWA",
-    "portfolio"
+    "portfolio",
+    "netlify",
+    "mux",
+    "web design"
   ],
-  "author": "Ema Suriano",
+  "author": "James Aspinall",
   "license": "MIT",
   "bugs": {
     "url": "https://github.com/EmaSuriano/gatsby-starter-mate/issues"

@@ -1,18 +1,14 @@
 @font-face {
-  font-family: 'icomoon';
-  src: url('fonts/icomoon.eot?dijix5');
-  src: url('fonts/icomoon.eot?dijix5#iefix') format('embedded-opentype'),
-    url('fonts/icomoon.ttf?dijix5') format('truetype'),
-    url('fonts/icomoon.woff?dijix5') format('woff'),
-    url('fonts/icomoon.svg?dijix5#icomoon') format('svg');
-  font-weight: normal;
+  font-family: 'Raleway';
+  src: url('fonts/Raleway-Thin.ttf?dijix5') format('truetype');
+  font-weight: light;
   font-style: normal;
 }
 
 [class^='fa-'],
 [class*=' fa-'] {
   /* use !important to prevent issues with browser extensions that change fonts */
-  font-family: 'icomoon' !important;
+  font-family: 'Raleway' !important;
   speak: none;
   font-style: normal;
   font-weight: normal;

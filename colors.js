@@ -1,14 +1,24 @@
 module.exports = {
   background: '#FFFFFF',
-  backgroundDark: '#f0e6f6',
+  // Secondary left and Upper big slash
+  backgroundDark: '#8DABB7',
 
   text: '#333333',
 
-  primary: '#7c37ad',
-  primaryLight: '#ae66df',
-  primaryDark: '#4b007d',
+  // Main Heading text
+  primary: '#0B152E',
 
-  secondary: '#ff4081',
-  secondaryLight: '#ff79b0',
-  secondaryDark: '#c60055',
+  // Underlining
+  primaryLight: '#9EBBC5',
+
+  // Right Hand Main triangles
+  primaryDark: '#61988E',
+
+  // Left Hand Corder Triangles
+  secondary: '#071637',
+  // Triangle Under About Me
+  secondaryLight: '#35566E',
+
+  // Section Heading Text Colour
+  secondaryDark: '#1B2E46',
 };
